@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat:ital,wght@0,400;1,500&family=Oxygen&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+html{
+    font-size: 61.5%;
+   
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: rgb(113, 67, 142);
+}
+main{
+    height: 70vh;
+    color: rgb(35, 37, 141);
+    background-color: rgb(255, 255, 255);
+    width: 40vw;
+    text-align: center;
+    /* border: solid rgb(255, 255, 255) 0.8px; */
+    border-width: 0.8rem;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 3rem;
+
+
+}
+
+.eventSection{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+.buttons {
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    
+   
+}
+.buttons button{
+    font-family: 'Montserrat', sans-serif;
+    
+   width: 20rem;
+    border: solid rgb(253, 253, 253) 0.10rem;
+    margin:  0.5rem;
+    border-radius: 0.5rem;
+    padding: 0.8rem;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-image: linear-gradient(
+        92.88deg,
+        #455eb5 9.16%,
+        #5643cc 43.89%,
+        #673fd7 64.72%
+    );
+
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(139, 25, 25);
+    font-weight: bold;
+    font-size: 1.8rem;;
+}
+p{
+    font-size: 2rem;
+}
+h1{
+    font-size: 3rem;
+}
+button:hover{
+    box-shadow: rgba(95, 40, 40, 0.2);
+    transition-duration:  0.59ms;
+    font-size: 1.8rem;
+}
+
+#gameArea{
+   height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#newGameButton{
+    margin: 2rem,0;
+}
+
+input{
+    font-family: 'Montserrat', sans-serif;
+    border: 0.1rem solid rgb(60, 81, 216);
+    margin: 4rem 0;
+    color: whiet;
+    font-size: large;
+    padding: 1rem; 
+    width: 20rem;
+    border-radius: 21px;
+    background-color: rgb(87, 195, 211);
+}
+.stats{
+    text-align: left;
+    margin-bottom: 4rem;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(57, 45, 45);
+    font-weight: bold;
+    font-size: 1.8rem;;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+.info span{
+    font-size: 2rem;
+    color: rgb(255, 3, 3);
+}
+img{
+    width: 17rem;
+
+}
